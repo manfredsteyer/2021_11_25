@@ -1,0 +1,22 @@
+{
+  "name": "@flight-workspace/logger-lib",
+  "version": "39.2.19",
+  "description": "Best logger lib ever?",
+  "author": {
+    "name": "me",
+    "email": "me@home.here",
+    "url": "http://www.me.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://my-git",
+    "directory": "my-directory"
+  },
+  "peerDependencies": {
+    "@angular/common": "> 11.0.0 < 13.0.1",
+    "@angular/core": "> 11.0.0 < 13.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
