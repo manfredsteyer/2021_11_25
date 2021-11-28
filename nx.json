@@ -33,6 +33,29 @@
     }
   },
   "projects": {
+    "checkin": {
+      "tags": ["domain:apps/checkin", "type:app"]
+    },
+    "checkin-domain": {
+      "tags": ["domain:checkin", "type:domain-logic"]
+    },
+    "checkin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["checkin"]
+    },
+    "checkin1": {
+      "tags": ["domain:apps/checkin1", "type:app"]
+    },
+    "checkin1-domain": {
+      "tags": ["domain:checkin1", "type:domain-logic"]
+    },
+    "checkin1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["checkin1"]
+    },
+    "checkin1-feature-manage": {
+      "tags": ["domain:checkin1", "type:feature"]
+    },
     "dashboard": {
       "tags": ["domain:dashboard"]
     },

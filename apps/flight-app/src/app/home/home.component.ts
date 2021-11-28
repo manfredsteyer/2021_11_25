@@ -1,5 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { ɵdetectChanges } from '@angular/core';
+
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -34,7 +36,7 @@ export class HomeComponent implements OnInit {
   }
 
   login(): void {
-    this._userName = 'Login will be implemented in another exercise!';
+    this._userName = 'Manfred!';
   }
 
   logout(): void {

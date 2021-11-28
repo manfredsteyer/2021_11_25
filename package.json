@@ -32,7 +32,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-architects/module-federation": "^12.1.1",
+    "@angular-architects/module-federation": "^13.0.1",
     "@angular-architects/module-federation-tools": "0.0.6",
     "@angular/animations": "12.1.0",
     "@angular/cdk": "^12.0.0",
@@ -49,12 +49,14 @@
     "@ngrx/entity": "12.2.0",
     "@ngrx/router-store": "12.2.0",
     "@ngrx/store": "12.2.0",
+    "@ngrx/store-devtools": "10.1.2",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
     "@nrwl/angular": "12.6.5",
     "@nrwl/workspace": "12.6.5",
     "@swimlane/ngx-charts": "^17.0.0",
     "angular-oauth2-oidc": "^10.0.3",
+    "ngrx-immer": "^2.0.0",
     "rxjs": "^7.3.0",
     "tslib": "^2.0.0",
     "zone.js": "0.11.4"
